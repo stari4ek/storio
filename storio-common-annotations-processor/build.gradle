@@ -17,5 +17,4 @@ sourceSets {
     test.java.srcDir 'src/test/kotlin'
 }
 
-apply from: '../gradle/publish-java-lib.gradle'
 apply from: '../gradle/jacoco-non-android.gradle'
